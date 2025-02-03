@@ -7,6 +7,6 @@ WORKDIR /app
 # Copy application files  
 COPY . .  
 
-# Run a basic Python app (replace only if needed)  
+# Run a basic Python app (replace if needed)  
 CMD ["python", "-m", "http.server", "8080"]
 
